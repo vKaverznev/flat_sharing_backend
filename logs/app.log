@@ -1,0 +1,93 @@
+2023-05-13 14:41:04.747 [main] INFO  c.e.rent_flat.RentFlatApplication - Starting RentFlatApplication using Java 20 with PID 73696 (/Users/vladislavkaverznev/IdeaProjects/flat_sharing_backend/rent_flat/target/classes started by vladislavkaverznev in /Users/vladislavkaverznev/IdeaProjects/flat_sharing_backend)
+2023-05-13 14:41:04.750 [main] INFO  c.e.rent_flat.RentFlatApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-13 14:41:05.212 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=633bedb3-9aa9-37d7-9d19-bcd552b014cf
+2023-05-13 14:41:05.323 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8095 (http)
+2023-05-13 14:41:05.327 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8095"]
+2023-05-13 14:41:05.327 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-13 14:41:05.327 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-13 14:41:05.367 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-13 14:41:05.367 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 571 ms
+2023-05-13 14:41:05.574 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-05-13 14:41:05.594 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-05-13 14:41:05.613 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2023-05-13 14:41:05.630 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2023-05-13 14:41:05.632 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-13 14:41:05.641 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2023-05-13 14:41:05.641 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2023-05-13 14:41:05.641 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2023-05-13 14:41:05.641 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2023-05-13 14:41:05.641 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2023-05-13 14:41:05.641 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2023-05-13 14:41:05.641 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2023-05-13 14:41:05.808 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2023-05-13 14:41:05.809 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2023-05-13 14:41:05.809 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-05-13 14:41:05.812 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1683978065811 with initial instances count: 3
+2023-05-13 14:41:05.812 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application RENTFLETCLIENT with eureka with status UP
+2023-05-13 14:41:05.812 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1683978065812, current=UP, previous=STARTING]
+2023-05-13 14:41:05.813 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_RENTFLETCLIENT/10.15.76.24:rentfletclient:8095: registering service...
+2023-05-13 14:41:05.813 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8095"]
+2023-05-13 14:41:05.820 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8095 (http) with context path ''
+2023-05-13 14:41:05.820 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8095
+2023-05-13 14:41:05.830 [main] INFO  c.e.rent_flat.RentFlatApplication - Started RentFlatApplication in 1.431 seconds (process running for 2.038)
+2023-05-13 14:41:05.849 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_RENTFLETCLIENT/10.15.76.24:rentfletclient:8095 - registration status: 204
+2023-05-13 14:41:43.399 [http-nio-8095-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-13 14:41:43.399 [http-nio-8095-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-13 14:41:43.401 [http-nio-8095-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-05-13 14:41:43.422 [http-nio-8095-exec-1] INFO  c.e.r.controller.FlatController - Method getCity initialized with parameters: 59.9410514 30.3475495
+2023-05-13 14:43:58.624 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application RENTFLETCLIENT with eureka with status DOWN
+2023-05-13 14:43:58.625 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1683978238625, current=DOWN, previous=UP]
+2023-05-13 14:43:58.625 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_RENTFLETCLIENT/10.15.76.24:rentfletclient:8095: registering service...
+2023-05-13 14:43:58.645 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_RENTFLETCLIENT/10.15.76.24:rentfletclient:8095 - registration status: 204
+2023-05-13 14:43:58.646 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2023-05-13 14:44:01.663 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2023-05-13 14:44:01.700 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_RENTFLETCLIENT/10.15.76.24:rentfletclient:8095 - deregister  status: 200
+2023-05-13 14:44:01.726 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2023-05-13 14:44:03.741 [main] INFO  c.e.rent_flat.RentFlatApplication - Starting RentFlatApplication using Java 20 with PID 73880 (/Users/vladislavkaverznev/IdeaProjects/flat_sharing_backend/rent_flat/target/classes started by vladislavkaverznev in /Users/vladislavkaverznev/IdeaProjects/flat_sharing_backend)
+2023-05-13 14:44:03.741 [main] INFO  c.e.rent_flat.RentFlatApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-13 14:44:04.031 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=633bedb3-9aa9-37d7-9d19-bcd552b014cf
+2023-05-13 14:44:04.156 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8095 (http)
+2023-05-13 14:44:04.159 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8095"]
+2023-05-13 14:44:04.160 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-13 14:44:04.160 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-13 14:44:04.216 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-13 14:44:04.216 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 455 ms
+2023-05-13 14:44:04.439 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-05-13 14:44:04.464 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-05-13 14:44:04.482 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2023-05-13 14:44:04.497 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2023-05-13 14:44:04.499 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-13 14:44:04.507 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2023-05-13 14:44:04.508 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2023-05-13 14:44:04.508 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2023-05-13 14:44:04.508 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2023-05-13 14:44:04.508 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2023-05-13 14:44:04.508 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2023-05-13 14:44:04.508 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2023-05-13 14:44:04.665 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2023-05-13 14:44:04.666 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2023-05-13 14:44:04.667 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-05-13 14:44:04.669 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1683978244668 with initial instances count: 3
+2023-05-13 14:44:04.670 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application RENTFLETCLIENT with eureka with status UP
+2023-05-13 14:44:04.670 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1683978244670, current=UP, previous=STARTING]
+2023-05-13 14:44:04.670 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_RENTFLETCLIENT/10.15.76.24:rentfletclient:8095: registering service...
+2023-05-13 14:44:04.671 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8095"]
+2023-05-13 14:44:04.677 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8095 (http) with context path ''
+2023-05-13 14:44:04.678 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8095
+2023-05-13 14:44:04.699 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_RENTFLETCLIENT/10.15.76.24:rentfletclient:8095 - registration status: 204
+2023-05-13 14:44:04.704 [main] INFO  c.e.rent_flat.RentFlatApplication - Started RentFlatApplication in 1.118 seconds (process running for 1.641)
+2023-05-13 14:44:31.043 [http-nio-8095-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-13 14:44:31.043 [http-nio-8095-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-13 14:44:31.045 [http-nio-8095-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-05-13 14:44:31.062 [http-nio-8095-exec-3] INFO  c.e.r.controller.FlatController - Method getCity initialized with parameters: 59.9410514 30.3475495
+2023-05-13 14:49:04.504 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-05-13 14:53:58.809 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application RENTFLETCLIENT with eureka with status DOWN
+2023-05-13 14:53:58.812 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1683978838812, current=DOWN, previous=UP]
+2023-05-13 14:53:58.813 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_RENTFLETCLIENT/10.15.76.24:rentfletclient:8095: registering service...
+2023-05-13 14:53:58.871 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_RENTFLETCLIENT/10.15.76.24:rentfletclient:8095 - registration status: 204
+2023-05-13 14:53:58.931 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2023-05-13 14:54:01.949 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2023-05-13 14:54:01.976 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_RENTFLETCLIENT/10.15.76.24:rentfletclient:8095 - deregister  status: 200
+2023-05-13 14:54:01.985 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2023-05-13 14:54:44.993 [http-nio-8095-exec-1] ERROR c.e.r.controller.FlatController - Method getCity initialized with parameters: 59.9410514 30.3475495
+2023-05-13 14:54:44.995 [http-nio-8095-exec-1] ERROR c.e.r.controller.FlatController - Проверяем работу логгера ошибка 
